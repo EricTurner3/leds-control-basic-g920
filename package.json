@@ -1,0 +1,29 @@
+{
+  "name": "leds-control-basic",
+  "version": "1.8.4",
+  "description": "LEDs Control for Logitech g923",
+  "level": "basic",
+  "device": "G923",
+  "homepage": "https://github.com/Nemuray/LedsControl",
+  "author": {
+    "name": "Nemuray",
+    "email": "nemurayplace@gmail.com"
+  },
+  "main": "main.js",
+  "private": true,
+  "dependencies": {
+    "@electron/remote": "1.2.0",
+    "cors": "2.8.5",
+    "electron-log": "4.4.1",
+    "electron-store": "8.0.1",
+    "express": "4.17.1",
+    "node-hid": "2.1.1",
+    "socket.io": "4.4.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "chrome 91"
+  ]
+}
